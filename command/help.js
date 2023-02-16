@@ -19,23 +19,23 @@ Hitung Mundur Bulan Ramadhan 🌙
 ${mundur}
 
 *STATISTICS*
- • Upload : ${upload}
- • Downloads : ${download}
+ • 📥 • Upload ➡️ ${upload}
+ • 📂 • Downloads ➡️ ${download}
 
 *BOT INFO*
- • Creator : ${ownerName}
- • Bot Name : ${botName}
- • Time : ${jam}
- • Date : ${tanggal(new Date())}
- • Runtime : ${runtime(process.uptime())}
+ • 📌 • Creator ➡️ ${ownerName}
+ • 🗿 • Bot Name ➡️ ${botName}
+ • 🕓 • Time ➡️ ${jam}
+ • 📅 • Date ➡️ ${tanggal(new Date())}
+ • 🖥️ • Runtime ➡️ ${runtime(process.uptime())}
 
 *USER INFO*
- • Name : ${pushname !== undefined ? pushname : '-'}
- • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
- • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
- • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
- • Balance : ${toCommas(getBalance(sender, balance))}
- • Role : ${role}
+ • 👤 • Name ➡️ ${pushname !== undefined ? pushname : '-'}
+ • 🐱 • Status ➡️ ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+ • 🌸 • Limit ➡️ ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+ • ⚔️ • Limit Game ➡️ ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
+ • 🛠️ • Balance ➡️ ${toCommas(getBalance(sender, balance))}
+ • 🔒 • Role ➡️ ${role}
  
  
 *MAIN MENU*${petik}
@@ -518,4 +518,5 @@ exports.donate = (pushname, ownerNumber) => {
 wa.me/${ownerNumber} (Owner)`
 }
 
-exports.sewanya = `Untuk List Sewa ubah sendiri di folder command, file help.js 👌 baris ke 521`
+exports.sewanya = `𝐌𝐚𝐮 𝐨𝐩𝐞𝐧 𝐬𝐞𝐰𝐚 𝐛𝐨𝐭 𝐝𝐚𝐧 𝐫𝐮𝐧 𝐛𝐨𝐭 𝐛𝐮𝐤𝐚𝐧 𝐝𝐢 𝐬𝐢𝐧𝐢 𝐤𝐚𝐤. 🙏
+`
